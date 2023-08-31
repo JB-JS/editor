@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <script defer src="/index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="btn-group">
+        <button class="room-btn">방만들기</button>
+      </div>
+
+      <div class="room hidden">
+        <div class="editor">
+          <textarea></textarea>
+        </div>
+        <aside>
+          <h2 class="title">참여자 목록</h2>
+          <ul class="user-list">
+            <li></li>
+          </ul>
+          <p class="name-notify"></p>
+        </aside>
+      </div>
+    </main>
+
+    <div class="modal-bg hidden"></div>
+    <div class="modal hidden">
+      <div class="modal-field">
+        <h2 class="modal-title">닉네임 설정</h2>
+      </div>
+      <div class="modal-field">
+        <input
+          type="text"
+          class="modal-input"
+          placeholder="닉네임을 입력해주세요"
+        />
+      </div>
+      <div class="modal-btn-group">
+        <div class="modal-btn">입장</div>
+      </div>
+    </div>
+  </body>
+</html>
